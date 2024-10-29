@@ -1,3 +1,4 @@
+import config from './config';
 import React, { useState, useEffect } from 'react';
 import { Home, User, Briefcase, GraduationCap, Mail, FileText, Github, Linkedin, Brain, Phone, Award, TrendingUp, BookOpen, Code } from 'lucide-react';
 import styles from './Portfolio.module.css';
@@ -51,7 +52,7 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
     <div className={styles.container}>
       <div className={styles.contentSection}>
           <video autoPlay loop muted className={styles.video}>
-          <source src={videoSrc} type="video/mp4" />
+          <source src={`${config.basePath}${videoSrc}`} type="video/mp4" />
         </video>
         
         <div className={`${styles.content} ${styles.textFrame} ${fadeIn ? styles.fadeIn : styles.fadeOut}`}>
