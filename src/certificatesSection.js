@@ -1,3 +1,4 @@
+import config from './config.js';
 import React, { useState, useRef, useEffect } from 'react';
 import { X } from 'lucide-react';
 import styles from './Portfolio.module.css';
@@ -123,7 +124,7 @@ const CertificatesSection = () => {
         title: "Representation Learning & Generative AI Summer School",
         issuer: "Oxford University", // Adjust if needed
         date: "July 2024", // Adjust the date as needed
-        imageSrc: "/cert_img/representation_learning_generative_ai.png", // Adjust the path as needed
+        imageSrc: "`${config.basePath}`/cert_img/representation_learning_generative_ai.png", // Adjust the path as needed
         summary: "Participated in an intensive summer school program focused on advanced topics in machine learning, specifically representation learning and generative AI. The program consisted of 22 hours of lectures and practical sessions led by experts in the field.",
         details: [
           "Large language models and agents",
@@ -138,7 +139,7 @@ const CertificatesSection = () => {
       title: "Introduction to Databases for Back-End Development",
       issuer: "Meta",
       date: "November 2023",
-      imageSrc: "/cert_img/backend.png",
+      imageSrc: "`${config.basePath}`/cert_img/backend.png",
       summary: "Earned a certificate demonstrating strong foundational knowledge of databases and their use in storing, managing, and analyzing data.",
       details: [
         "Understanding of core database concepts, principles, and underlying technologies",
@@ -152,7 +153,7 @@ const CertificatesSection = () => {
         title: "Generative AI with Large Language Models (LLMs)",
         issuer: "Amazon Web Services",
         date: "October 2023",
-        imageSrc: "/cert_img/aws_generative_ai_llm.png", // Adjust the path as needed
+        imageSrc: "`${config.basePath}`/cert_img/aws_generative_ai_llm.png", // Adjust the path as needed
         summary: "Completed an in-depth course on Generative AI with Large Language Models (LLMs), taught by AWS technical staff and leveraging AWS infrastructure. This course provides a comprehensive understanding of how generative AI works and how to deploy it in real-world applications.",
         details: [
           {
@@ -204,7 +205,7 @@ const CertificatesSection = () => {
       title: "Version Control with Git",
       issuer: "Meta",
       date: "October 2023",
-      imageSrc: "/cert_img/version_control.png",
+      imageSrc: "`${config.basePath}`/cert_img/version_control.png",
       summary: "Earned a certificate demonstrating proficiency in version control systems and command line operations, essential skills for effective software development and collaboration.",
       details: [
         "Understanding of version control systems and their role in enabling effective collaboration on software projects",
@@ -218,7 +219,7 @@ const CertificatesSection = () => {
       title: "Introduction to Backend Development",
       issuer: "Meta",
       date: "August 2023",
-      imageSrc: "/cert_img/backend_dev.png",
+      imageSrc: "`${config.basePath}`/cert_img/backend_dev.png",
       summary: "Completed a comprehensive introduction to backend development, covering fundamental web technologies and their applications in creating responsive and functional web interfaces.",
       details: [
         "Understanding of the roles and responsibilities of different types of web developers",
@@ -232,7 +233,7 @@ const CertificatesSection = () => {
         title: "Data Scientist Nanodegree",
         issuer: "Udacity in collaboration with IBM",
         date: "June 2023",
-        imageSrc: "/cert_img/udacity_data_science_nanodegree.png", // Adjust the path as needed
+        imageSrc: "`${config.basePath}`/cert_img/udacity_data_science_nanodegree.png", // Adjust the path as needed
         summary: "Earned an advanced Data Scientist Nanodegree from Udacity, developed in collaboration with IBM, a global leader in data science and analytics. This rigorous program is designed to prepare students for real-world data science roles and incorporates cutting-edge tools and methodologies used in the industry. Throughout the program, I completed several high-level projects that showcase my ability to apply advanced data science concepts to real-world problems.",
         details: [
           {
@@ -311,7 +312,7 @@ const CertificatesSection = () => {
       title: "Massive Data Analysis with Spark",
       issuer: "Calcul Quebec",
       date: "November 2022",
-      imageSrc: "/cert_img/spark_analysis.png",
+      imageSrc: "`${config.basePath}`/cert_img/spark_analysis.png",
       summary: "Completed an advanced course on big data analysis using Apache Spark, demonstrating proficiency in distributed computing and large-scale data processing techniques.",
       details: [
         "Understanding of Spark's distributed computing architecture and its advantages for big data workloads",
@@ -325,7 +326,7 @@ const CertificatesSection = () => {
       title: "Build, Train, and Deploy ML Pipelines using BERT",
       issuer: "Amazon Web Services", // Adjust if the issuer is different
       date: "July 2022", // Adjust the date as needed
-      imageSrc: "/cert_img/bert_ml_pipeline.png", // Adjust the path as needed
+      imageSrc: "`${config.basePath}`/cert_img/bert_ml_pipeline.png", // Adjust the path as needed
       summary: "Earned a certificate demonstrating expertise in building end-to-end machine learning pipelines using BERT, a state-of-the-art natural language processing model.",
       details: [
         "Proficiency in feature engineering techniques for transforming raw text data into machine learning-ready features",
@@ -342,7 +343,7 @@ const CertificatesSection = () => {
       title: "AWS Cloud Technical Essentials",
       issuer: "Amazon Web Services",
       date: "June 2022",
-      imageSrc: "/cert_img/aws_cloud_essentials.png", // Adjust the path as needed
+      imageSrc: "`${config.basePath}`/cert_img/aws_cloud_essentials.png", // Adjust the path as needed
       summary: "Earned a certificate providing a comprehensive introduction to Amazon Web Services (AWS) cloud computing platform.",
       details: [
         "Understanding of cloud computing fundamentals and the value proposition of the cloud",
@@ -360,7 +361,7 @@ const CertificatesSection = () => {
       title: "Analyze Datasets and Train ML Models using AutoML",
       issuer: "Amazon Web Services", // Assuming it's from AWS, adjust if needed
       date: "June 2022", // Adjust the date as needed
-      imageSrc: "/cert_img/automl_certificate.png", // Adjust the path as needed
+      imageSrc: "`${config.basePath}`/cert_img/automl_certificate.png", // Adjust the path as needed
       summary: "Earned a certificate demonstrating proficiency in using automated machine learning (AutoML) techniques to analyze datasets and train machine learning models.",
       details: [
         "Ability to ingest, explore, and visualize datasets to gain insights and prepare for machine learning",
@@ -378,7 +379,7 @@ const CertificatesSection = () => {
       title: "Machine Learning A-Z",
       issuer: "Udemy", // Adjust if needed
       date: "June 2022", // Adjust the date as needed
-      imageSrc: "/cert_img/machine_learning_az.png", // Adjust the path as needed
+      imageSrc: "`${config.basePath}`/cert_img/machine_learning_az.png", // Adjust the path as needed
       summary: "Completed a comprehensive course covering a wide range of machine learning algorithms and techniques implemented in Python, including supervised and unsupervised learning, reinforcement learning, natural language processing, deep learning, and dimensionality reduction.",
       details: [
         "Data Preprocessing: Importing datasets, handling missing data, encoding categorical variables, data splitting, and feature scaling",
@@ -399,7 +400,7 @@ const CertificatesSection = () => {
       title: "Vectorization and Optimization",
       issuer: "Calcul Quebec",
       date: "May 2022",
-      imageSrc: "/cert_img/vectorization_optimization.png",
+      imageSrc: "`${config.basePath}`/cert_img/vectorization_optimization.png",
       summary: "Earned a certificate focused on advanced techniques for optimizing Python code performance, especially in the context of numerical and scientific computing.",
       details: [
         "Understanding of vectorization concept and its importance in optimizing numerical computations",
@@ -417,7 +418,7 @@ const CertificatesSection = () => {
       title: "C++ Programming",
       issuer: "Udemy", // Adjust if needed
       date: "April 2022", // Adjust the date as needed
-      imageSrc: "/cert_img/cpp_programming.png", // Adjust the path as needed
+      imageSrc: "`${config.basePath}`/cert_img/cpp_programming.png", // Adjust the path as needed
       summary: "Earned a comprehensive certificate in Modern C++ programming, covering topics from basic syntax to advanced concepts, focusing on Modern C++ standards and best practices.",
       details: [
         "Mastery of C++ syntax and semantics, including looping constructs, functions, and pointers",
@@ -435,7 +436,7 @@ const CertificatesSection = () => {
       title: "Introduction to GPU Programming with Python",
       issuer: "Calcul Quebec", // Adjust if needed
       date: "February 2022",
-      imageSrc: "/cert_img/gpu_programming.png", // Adjust the path as needed
+      imageSrc: "`${config.basePath}`/cert_img/gpu_programming.png", // Adjust the path as needed
       summary: "Earned a certificate providing a foundation in leveraging GPU computing to accelerate Python code, with a focus on applications in data science and machine learning.",
       details: [
         "Understanding of GPU architecture and the parallel computing paradigm",
@@ -450,7 +451,7 @@ const CertificatesSection = () => {
     title: "Python for Data Science Essential Training",
     issuer: "LinkedIn",
     date: "October 2021",
-    imageSrc: "/cert_img/python_data_science.png", // Adjust the path as needed
+    imageSrc: "`${config.basePath}`/cert_img/python_data_science.png", // Adjust the path as needed
     summary: "Completed a comprehensive hands-on course on using Python for data science tasks, including a real-world project involving web scraping and data analysis.",
     details: [
       "Understanding the advantages of using Python for data science",
@@ -469,7 +470,7 @@ const CertificatesSection = () => {
       title: "Neural Networks and Deep Learning",
       issuer: "Deep Learning. AI", // Adjust if needed
       date: "August 2021", // Adjust the date as needed
-      imageSrc: "/cert_img/neural_networks_deep_learning.png", // Adjust the path as needed
+      imageSrc: "`${config.basePath}`/cert_img/neural_networks_deep_learning.png", // Adjust the path as needed
       summary: "Earned a certificate providing a deep dive into the foundations of deep learning and neural networks, covering both theoretical concepts and practical implementations.",
       details: [
         "Understanding of the major trends driving the rise of deep learning and its applications",

@@ -1,3 +1,4 @@
+import config from './config.js';
 import React, { useState } from 'react';
 import { Github, ExternalLink, Code, ChevronDown, ChevronUp, Brain, Database, LineChart } from 'lucide-react';
 import styles from './Portfolio.module.css';
@@ -5,7 +6,7 @@ import styles from './Portfolio.module.css';
 const projectsData = [
     {
        title: "Language Model Detoxification with Reinforcement Learning",
-       image: "/Projects/detoxification_rl.png",
+       image: "`${config.basePath}`/Projects/detoxification_rl.png",
        description: "Implemented an end-to-end Reinforcement Learning pipeline to reduce toxicity in language model outputs while maintaining text generation quality. The project uses Proximal Policy Optimization (PPO) with Meta AI's hate speech classifier as a reward model to fine-tune FLAN-T5. The solution achieved a 17.41% reduction in toxicity scores while preserving semantic meaning through Parameter-Efficient Fine-Tuning (PEFT/LoRA). The project demonstrates advanced techniques in natural language processing, combining reinforcement learning with transformer models, and showcases practical applications in content moderation and safe AI deployment. The architecture combines multiple components including FLAN-T5 base model augmented with PEFT/LoRA for efficient fine-tuning, PPO trainer implementing reinforcement learning optimization, reward model based on hate speech classification, and comprehensive evaluation suite for toxicity measurement. The project is structured modularly with separate components for data handling, model setup, training, and evaluation, making it easily extensible and maintainable. It achieved significant toxicity reduction while preserving the model's ability to generate coherent and meaningful text, demonstrating the effectiveness of reinforcement learning in language model alignment.",
        technologies: [
            "Python",
@@ -71,7 +72,7 @@ const projectsData = [
     },
   {
     title: "Disaster Response Pipeline",
-    image: "/Projects/disaster_pipeline.png", // Add your image path
+    image: "`${config.basePath}`/Projects/disaster_pipeline.png", // Add your image path
     description: "The Disaster Response Pipeline is an intelligent system that helps classify emergency messages during disasters. Built by Parham Dehghani, this project combines Natural Language Processing (NLP) with machine learning to automatically categorize emergency communications. At its core, it uses a Random Forest classifier with TF-IDF text transformation to understand and sort incoming messages. The system processes raw text through an ETL (Extract, Transform, Load) pipeline, transforms it into usable features, and then makes predictions about the type of emergency being reported. What makes this project particularly valuable is its practical application - it can help emergency responders and officials quickly understand and react to disasters by automatically sorting through social media messages and other communications. The system is implemented as a web application using Flask, where users can input emergency messages and receive immediate classifications. It's designed to be scalable and can be deployed on cloud platforms like AWS, with the ability to integrate with APIs for continuous improvement of its classification accuracy as new data becomes available. The project demonstrates a complete end-to-end machine learning solution, from data processing to user interface, with real-world applications in disaster response and emergency management.",
     technologies: [
         "Flask",
@@ -127,7 +128,7 @@ const projectsData = [
   },
     {
       title: "Portuguese Real Estate Exploratory Data Analysis",
-      image: "/Projects/portugal_real_estate.png",
+      image: "`${config.basePath}`/Projects/portugal_real_estate.png",
       description: "This project explores a dataset of over 100,000 real estate listings in Portugal. The goal was to uncover insights on property prices, types, and geographical factors influencing the market. I conducted an Exploratory Data Analysis (EDA) using Python and Jupyter Notebooks, analyzing factors like price distribution, property type breakdowns, price vs. area relationships, district-wise price variations, and the correlation between features. The project utilized libraries like Pandas, NumPy, Matplotlib, and Seaborn for data manipulation and visualization. It provides valuable insights for potential investors, property hunters, and market analysts seeking to understand trends in the Portuguese real estate market.",
       technologies: [
         "Pandas",
@@ -204,7 +205,7 @@ const projectsData = [
   },
   {
      title: "Seattle Airbnb Price Analysis",
-     image: "/Projects/airbnb_analysis.png",
+     image: "`${config.basePath}`/Projects/airbnb_analysis.png",
      description: "A comprehensive data analysis project that explores the Seattle Airbnb dataset to uncover patterns and insights in reservation pricing. The project analyzes three key aspects: price distribution across Seattle listings, seasonal price variations throughout the year, and the correlation between various factors (bedrooms, bathrooms, amenities) and listing prices. Using statistical analysis and data visualization techniques, the project reveals important insights such as price ranges in different areas, peak pricing during summer months, and how specific amenities influence pricing. The analysis provides valuable information for both Airbnb hosts looking to optimize their pricing strategies and guests seeking to understand price variations. The project demonstrates practical application of data analysis in the real estate and hospitality sector, using Python's data science stack for data manipulation, statistical analysis, and visualization. The findings are published in a detailed Medium article, making complex data insights accessible to a broader audience.",
      technologies: [
          "Pandas",
@@ -240,7 +241,7 @@ plt.show()`
   },
   {
      title: "IBM Article Recommendation Engine",
-     image: "/Projects/recommendation_engine.png",
+     image: "`${config.basePath}`/Projects/recommendation_engine.png",
      description: "A sophisticated recommendation system developed using IBM Watson Studio platform data, implementing three different recommendation strategies to suggest articles to users. The project tackles the recommendation problem through multiple approaches: First, a rank-based recommendation system that identifies and suggests the most popular articles based on user interaction frequency, particularly useful for new users. Second, a user-user based collaborative filtering system that finds similar users based on their article interaction patterns and makes recommendations accordingly, enabling more personalized suggestions. Finally, the project implements matrix factorization, an advanced machine learning approach that decomposes the user-item interaction matrix to predict potential future interactions and provide more accurate recommendations. This comprehensive approach demonstrates the evolution from simple popularity-based recommendations to more sophisticated, personalized suggestion systems. The project showcases practical implementation of recommendation systems in a real-world context using IBM's platform data, addressing both cold-start problems for new users and providing personalized recommendations for existing users.",
      technologies: [
          "Pandas",
@@ -282,7 +283,7 @@ plt.show()`
   },
   {
       title: "COVID-19 X-Ray Detection System",
-      image: "/Projects/covid_detection.png",
+      image: "`${config.basePath}`/Projects/covid_detection.png",
       description: "A deep learning-based medical imaging system that detects COVID-19 from chest X-ray images with high accuracy. Built using PyTorch and transfer learning with DenseNet201 architecture, the system can classify X-rays into four categories: COVID-19, Lung Opacity, Normal, and Viral Pneumonia. The project implements sophisticated data augmentation techniques and achieves 82.4% accuracy on the test set. The model is designed with a conservative approach for COVID-19 detection, requiring >30% probability for positive classification to minimize false positives. The system includes a complete pipeline from data preprocessing to model deployment, with real-time prediction capabilities and probability scoring for each category. This project demonstrates practical application of deep learning in medical diagnosis, combining transfer learning techniques with custom model architecture for optimal performance.",
       technologies: [
           "PyTorch",
@@ -326,7 +327,7 @@ plt.show()`
   },
   {
       title: "BSM Parameter Space Scanner",
-      image: "/Projects/bsm_scanner.png",
+      image: "`${config.basePath}`/Projects/bsm_scanner.png",
       description: "A sophisticated tool for scanning parameter spaces in Beyond Standard Model (BSM) physics, specifically designed for supersymmetric models with inverse seesaw mechanisms. The project implements a comprehensive framework that interfaces with major physics tools like SPheno and MicrOMEGAs to generate and analyze physics models. It performs automatic parameter space exploration with built-in constraint checking for various physics observables including relic density, dark matter direct detection, and LHC constraints. The scanner employs adaptive sampling techniques, focusing on regions that satisfy experimental constraints, and includes functionality for mass spectrum calculation, flavor physics checks, and dark matter properties computation. The tool generates detailed output files containing parameter points, physical observables, and analysis results, making it valuable for phenomenological studies in particle physics.",
       technologies: [
           "BASH",

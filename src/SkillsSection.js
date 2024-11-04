@@ -1,3 +1,4 @@
+import config from './config.js';
 import React from 'react';
 import { Brain, Database, Cloud, Terminal, ChartBar, Code, GitBranch, BarChart, Globe } from 'lucide-react';
 import styles from './Portfolio.module.css';
@@ -11,7 +12,7 @@ const SkillCategory = ({ title, icon, skills }) => (
     <div className={styles.skillGrid}>
       {skills.map((skill, index) => (
         <div key={index} className={styles.skillItem}>
-          <img src={`/skill-icons/${skill.toLowerCase().replace(/\s+/g, '-')}.png`} alt={skill} className={styles.skillIcon} />
+          <img src={`${config.basePath}/skill-icons/${skill.toLowerCase().replace(/\s+/g, '-')}.png`} alt={skill} className={styles.skillIcon} />
           <span>{skill}</span>
         </div>
       ))}
