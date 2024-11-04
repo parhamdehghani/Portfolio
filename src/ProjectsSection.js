@@ -72,7 +72,7 @@ const projectsData = [
     },
   {
     title: "Disaster Response Pipeline",
-    image: "`${config.basePath}`/Projects/disaster_pipeline.png", // Add your image path
+    image: "`${config.basePath}/Projects/disaster_pipeline.png`", // Add your image path
     description: "The Disaster Response Pipeline is an intelligent system that helps classify emergency messages during disasters. Built by Parham Dehghani, this project combines Natural Language Processing (NLP) with machine learning to automatically categorize emergency communications. At its core, it uses a Random Forest classifier with TF-IDF text transformation to understand and sort incoming messages. The system processes raw text through an ETL (Extract, Transform, Load) pipeline, transforms it into usable features, and then makes predictions about the type of emergency being reported. What makes this project particularly valuable is its practical application - it can help emergency responders and officials quickly understand and react to disasters by automatically sorting through social media messages and other communications. The system is implemented as a web application using Flask, where users can input emergency messages and receive immediate classifications. It's designed to be scalable and can be deployed on cloud platforms like AWS, with the ability to integrate with APIs for continuous improvement of its classification accuracy as new data becomes available. The project demonstrates a complete end-to-end machine learning solution, from data processing to user interface, with real-world applications in disaster response and emergency management.",
     technologies: [
         "Flask",
