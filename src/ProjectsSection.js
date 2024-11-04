@@ -6,7 +6,7 @@ import styles from './Portfolio.module.css';
 const projectsData = [
     {
        title: "Language Model Detoxification with Reinforcement Learning",
-       image: "`${config.basePath}`/Projects/detoxification_rl.png",
+       image: "`${config.basePath}/Projects/detoxification_rl.png`",
        description: "Implemented an end-to-end Reinforcement Learning pipeline to reduce toxicity in language model outputs while maintaining text generation quality. The project uses Proximal Policy Optimization (PPO) with Meta AI's hate speech classifier as a reward model to fine-tune FLAN-T5. The solution achieved a 17.41% reduction in toxicity scores while preserving semantic meaning through Parameter-Efficient Fine-Tuning (PEFT/LoRA). The project demonstrates advanced techniques in natural language processing, combining reinforcement learning with transformer models, and showcases practical applications in content moderation and safe AI deployment. The architecture combines multiple components including FLAN-T5 base model augmented with PEFT/LoRA for efficient fine-tuning, PPO trainer implementing reinforcement learning optimization, reward model based on hate speech classification, and comprehensive evaluation suite for toxicity measurement. The project is structured modularly with separate components for data handling, model setup, training, and evaluation, making it easily extensible and maintainable. It achieved significant toxicity reduction while preserving the model's ability to generate coherent and meaningful text, demonstrating the effectiveness of reinforcement learning in language model alignment.",
        technologies: [
            "Python",
@@ -128,7 +128,7 @@ const projectsData = [
   },
     {
       title: "Portuguese Real Estate Exploratory Data Analysis",
-      image: "`${config.basePath}`/Projects/portugal_real_estate.png",
+      image: "`${config.basePath}/Projects/portugal_real_estate.png`",
       description: "This project explores a dataset of over 100,000 real estate listings in Portugal. The goal was to uncover insights on property prices, types, and geographical factors influencing the market. I conducted an Exploratory Data Analysis (EDA) using Python and Jupyter Notebooks, analyzing factors like price distribution, property type breakdowns, price vs. area relationships, district-wise price variations, and the correlation between features. The project utilized libraries like Pandas, NumPy, Matplotlib, and Seaborn for data manipulation and visualization. It provides valuable insights for potential investors, property hunters, and market analysts seeking to understand trends in the Portuguese real estate market.",
       technologies: [
         "Pandas",
