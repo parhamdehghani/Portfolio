@@ -1,7 +1,5 @@
 const config = {
-  basePath: process.env.NODE_ENV === 'production' 
-    ? '/Portfolio' 
-    : ''
+  basePath: "/Portfolio" 
 };
 
 export default config;
