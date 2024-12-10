@@ -124,7 +124,7 @@ const CertificatesSection = () => {
         title: "Representation Learning & Generative AI Summer School",
         issuer: "Oxford University", // Adjust if needed
         date: "July 2024", // Adjust the date as needed
-        imageSrc: "`${config.basePath}`/cert_img/representation_learning_generative_ai.png", // Adjust the path as needed
+        imageSrc: config.basePath+"/cert_img/representation_learning_generative_ai.png", // Adjust the path as needed
         summary: "Participated in an intensive summer school program focused on advanced topics in machine learning, specifically representation learning and generative AI. The program consisted of 22 hours of lectures and practical sessions led by experts in the field.",
         details: [
           "Large language models and agents",
