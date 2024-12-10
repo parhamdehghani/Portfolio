@@ -26,7 +26,7 @@ const ResearchPublications = () => {
       journal: "European Physical Journal C",
       year: "2024",
       recap: "This research explores an extension of the Standard Model by adding vector-like leptons (VLLs) to address discrepancies in particle physics, particularly the anomalous magnetic moments of electrons and muons, while also considering neutrino data. The study identifies a minimal configuration of VLLs that could explain these phenomena and predicts distinct collider signatures featuring six hard leptons with significant energy. Analysis of these signatures at future 100 TeV proton-proton colliders demonstrates that if VLLs are responsible for the observed discrepancies, they would produce unmistakable signals. The research focuses on two benchmark scenarios with VLL masses between 500-900 GeV. By connecting lepton magnetic moments, neutrino physics, and collider phenomenology, this study provides a framework for understanding potential new physics. It highlights the importance of indirect constraints in developing beyond-Standard Model theories and emphasizes the crucial role of next-generation colliders in exploring these possibilities.",
-      imageUrl: config.basePath+"VLL.png",
+      imageUrl: config.basePath+"/VLL.png",
       publicationUrl: "https://arxiv.org/abs/2403.11862"
     },
     {
@@ -79,7 +79,7 @@ const ResearchPublications = () => {
           <div className={styles.researchContainer}>
                 <h1 className={styles.heading}>Research in Computational Particle Physics</h1>
                 <div className={styles.bannerImageContainer}>
-                  <img src = "Portfolio/research_banner.jpg" alt="Computational Particle Physics Research" className={styles.bannerImage} />
+                  <img src = "/Portfolio/research_banner.jpg" alt="Computational Particle Physics Research" className={styles.bannerImage} />
                 </div>
                 
           <p className={styles.recapSection} style={{ fontSize: "1.3em" }}>
