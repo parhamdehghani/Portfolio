@@ -67,9 +67,9 @@ const ResearchPublications = () => {
     },
   ];
     const interests = [
-        { id: 'astronomy', image: '`${config.basePath}`/astronomy.webp', description: 'Exploring the cosmos' },
-        { id: 'photography', image: '`${config.basePath}`/photography.avif', description: 'Capturing nature\'s beauty' },
-        { id: 'music', image: '`${config.basePath}`/music.jpg', description: 'Enjoying classical compositions' },
+        { id: 'astronomy', image: config.basePath+'/astronomy.webp', description: 'Exploring the cosmos' },
+        { id: 'photography', image: config.basePath+'/photography.avif', description: 'Capturing nature\'s beauty' },
+        { id: 'music', image: config.basePath+'/music.jpg', description: 'Enjoying classical compositions' },
       ];
 
       const colors = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#FFA07A', '#98D8C8', '#F7DC6F'];
@@ -79,7 +79,7 @@ const ResearchPublications = () => {
           <div className={styles.researchContainer}>
                 <h1 className={styles.heading}>Research in Computational Particle Physics</h1>
                 <div className={styles.bannerImageContainer}>
-                  <img src="`${config.basePath}`/research_banner.jpg" alt="Computational Particle Physics Research" className={styles.bannerImage} />
+                  <img src = "Portfolio/research_banner.jpg" alt="Computational Particle Physics Research" className={styles.bannerImage} />
                 </div>
                 
           <p className={styles.recapSection} style={{ fontSize: "1.3em" }}>
