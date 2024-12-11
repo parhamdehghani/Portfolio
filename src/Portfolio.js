@@ -1,6 +1,6 @@
 import config from './config';
 import React, { useState, useEffect } from 'react';
-import { Home, User, Briefcase, GraduationCap, Mail, FileText, Github, Linkedin, Brain, Phone, Award, TrendingUp, BookOpen, Code } from 'lucide-react';
+import { Home, User, Briefcase, GraduationCap, Mail, FileText, Github, Linkedin, Brain, Phone, Award, TrendingUp, BookOpen, GitFork } from 'lucide-react';
 import styles from './Portfolio.module.css';
 import SkillsSection from './SkillsSection';
 import CertificatesSection from './CertificatesSection';
@@ -255,10 +255,6 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
                 <a href="mailto:parham.dehghani88@gmail.com" style={{color: '#10B981'}}>parham.dehghani88@gmail.com</a>
               </p>
               <p className={styles.paragraph}>
-                <Phone size={24} style={{marginRight: '0.5rem', verticalAlign: 'middle'}} />
-                <a href="tel:+14382294014" style={{color: '#10B981'}}>+1 (438) 229-4014</a>
-              </p>
-              <p className={styles.paragraph}>
                 <Linkedin size={24} style={{marginRight: '0.5rem', verticalAlign: 'middle'}} />
                 <a href="https://www.linkedin.com/in/parhamdehghani" style={{color: '#10B981'}} target="_blank" rel="noopener noreferrer">linkedin.com/in/parhamdehghani</a>
               </p>
@@ -274,11 +270,11 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
         <NavItem section="home" icon={Home} />
         <NavItem section="about" icon={User} />
         <NavItem section="experience" icon={Briefcase} />
-        <NavItem section="projects" icon={Brain} />
+          <NavItem section="education" icon={GraduationCap} />
+          <NavItem section="certificates" icon={Award} />
+          <NavItem section="skills" icon={Brain} />
+          <NavItem section="projects" icon={GitFork} />
           <NavItem section="research" icon={BookOpen} />
-        <NavItem section="education" icon={GraduationCap} />
-        <NavItem section="skills" icon={Code} />
-        <NavItem section="certificates" icon={Award} />
         <NavItem section="contact" icon={Mail} />
       </nav>
     </div>
