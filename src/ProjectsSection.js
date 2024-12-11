@@ -126,31 +126,6 @@ const projectsData = [
     
     return model`
   },
-    {
-      title: "Portuguese Real Estate Exploratory Data Analysis",
-      image: config.basePath+"/Projects/portugal_real_estate.png",
-      description: "This project explores a dataset of over 100,000 real estate listings in Portugal. The goal was to uncover insights on property prices, types, and geographical factors influencing the market. I conducted an Exploratory Data Analysis (EDA) using Python and Jupyter Notebooks, analyzing factors like price distribution, property type breakdowns, price vs. area relationships, district-wise price variations, and the correlation between features. The project utilized libraries like Pandas, NumPy, Matplotlib, and Seaborn for data manipulation and visualization. It provides valuable insights for potential investors, property hunters, and market analysts seeking to understand trends in the Portuguese real estate market.",
-      technologies: [
-        "Pandas",
-        "NumPy",
-        "Matplotlib",
-        "Seaborn",
-        "Data Analysis",
-        "Data Visualization",
-      ],
-      github: "https://github.com/parhamdehghani/portuguese-real-estate-eda",
-      medium: "https://medium.com/@yourusername/rlhf-pipeline",
-    codeSnippet: `def clean_data(df):
-    # Handle missing values
-    df = df.dropna(subset=['Price', 'District', 'Type'])
-    df['PublishDate'] = pd.to_datetime(df['PublishDate'], errors='coerce')
-    area_columns = ['GrossPrivateArea', 'UsableArea', 'LivingArea', 'LotSize', 'BuiltArea']
-    df[area_columns] = df[area_columns].apply(pd.to_numeric, errors='coerce')
-    df['EnergyCertificate'] = df['EnergyCertificate'].fillna('Unknown')
-    return df
-`
-      
-    },
   {
       title: "Arvato Financial Services Customer Segmentation",
       image: config.basePath+"/Projects/arvato_segmentation.png",
