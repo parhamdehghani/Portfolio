@@ -283,7 +283,7 @@ plt.show()`
   },
   {
       title: "COVID-19 X-Ray Detection System",
-      image: config.basePath+"/Projects/covid_detection.png",
+      image: config.basePath+"/Projects/covid.png",
       description: "A deep learning-based medical imaging system that detects COVID-19 from chest X-ray images with high accuracy. Built using PyTorch and transfer learning with DenseNet201 architecture, the system can classify X-rays into four categories: COVID-19, Lung Opacity, Normal, and Viral Pneumonia. The project implements sophisticated data augmentation techniques and achieves 82.4% accuracy on the test set. The model is designed with a conservative approach for COVID-19 detection, requiring >30% probability for positive classification to minimize false positives. The system includes a complete pipeline from data preprocessing to model deployment, with real-time prediction capabilities and probability scoring for each category. This project demonstrates practical application of deep learning in medical diagnosis, combining transfer learning techniques with custom model architecture for optimal performance.",
       technologies: [
           "PyTorch",
