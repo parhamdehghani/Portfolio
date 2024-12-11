@@ -58,6 +58,13 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
         <div className={`${styles.content} ${styles.textFrame} ${fadeIn ? styles.fadeIn : styles.fadeOut}`}>
           {activeSection === 'home' && (
             <>
+            <div className={styles.profileImageContainer}>
+                 <img
+                   src="/image.jpeg"
+                   alt="Parham Dehghani"
+                   className={styles.profileImage}
+                 />
+               </div>
               <h1 className={styles.heading}>
                 Hi, I'm <span style={{color: '#10B981'}}>Parham Dehghani</span>
               </h1>
