@@ -60,7 +60,7 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
             <>
             <div className={styles.profileImageContainer}>
                  <img
-                   src="/Profile/image.jpeg"
+                   src="/Profile/image.png"
                    alt="Parham Dehghani"
                    className={styles.profileImage}
                  />
