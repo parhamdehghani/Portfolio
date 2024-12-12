@@ -106,7 +106,7 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
                                              </p>
                                              <h2 className={styles.subheading1}>Beyond the Data</h2>
                                              <p className={styles.paragraph}>
-                                         Outside of work, I enjoy nature photography and spending time outdoors with my camera. Music is also a big part of my life – I often listen to classical pieces while working or relaxing. I've kept up my interest in physics too, particularly astronomy and quantum gravity, where the quantum and gravitational worlds intersect.
+                                         Outside of work, I enjoy nature photography and spending time outdoors with my camera. Music is also a big part of my life – I often listen to classical pieces while working or relaxing. I am also interested in astronomy and quantum gravity, in addition to my ongoing research in particle physics.
                                              </p>
                                              <p className={styles.paragraph}>
                                          These interests help me stay balanced and often inspire new ways of thinking about problems in my data science work. Having a rich life outside of work keeps me creative and energized.
