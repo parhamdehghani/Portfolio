@@ -51,7 +51,7 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
   return (
     <div className={styles.container}>
       <div className={styles.contentSection}>
-          <video autoPlay loop muted className={styles.video}>
+          <video autoPlay loop playsInline muted className={styles.video}>
           <source src={`${config.basePath}${videoSrc}`} type="video/mp4" />
         </video>
         
