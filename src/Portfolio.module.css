@@ -419,10 +419,11 @@
 }
 
 .sectionDescription {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   max-width: 800px;
   margin: 0 auto 2rem;
   text-align: center;
+  font-weight: 700;
 }
 
 .certificatesGrid {
@@ -1235,6 +1236,6 @@
 
 .badgeName {
   color: #ffffff;
-  font-weight: 500;
+  font-weight: 900;
 }
 
