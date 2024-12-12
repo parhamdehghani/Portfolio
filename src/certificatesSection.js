@@ -489,10 +489,18 @@ const CertificatesSection = () => {
   return (
     <div className={styles.certificatesSection}>
       <h2 className={styles.sectionHeading}>My Certificates</h2>
-      <p className={styles.sectionDescription}>
-        I have completed various courses and certifications to enhance my skills in data science,
-        machine learning, and cloud technologies. Here are some of my key achievements:
-      </p>
+          <div className={styles.badgesPreamble}>
+                  <p className={styles.sectionDescription}>
+                    I have completed various courses and certifications to enhance my skills in data science,
+                    machine learning, and cloud technologies. Additionally, I have earned the following LinkedIn Skill Assessment badges:
+                  </p>
+                  <ul className={styles.badgesList}>
+                    <li>Python</li>
+                    <li>Machine Learning</li>
+                    <li>Bash Scripting</li>
+                    <li>Git</li>
+                  </ul>
+                </div>
       <div className={styles.certificatesGrid}>
         {certificates.map((cert, index) => (
           <CertificateCard key={index} {...cert} />

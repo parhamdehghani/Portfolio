@@ -79,7 +79,7 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
             </p>
             <h3 className={styles.subheading1}>Driving Innovation in Data Science at Scale AI</h3>
             <p className={styles.paragraph}>
-                                        At Scale AI, I am part of the Quality Analysis and training teams for the reward model in the data science domain, working within the SFT/RLHF pipeline for fine-tuning the Google Gemini multi-modal models. My role focuses on optimizing the reward model by providing expert human feedback and performing final quality audits on a diverse range of projects, including audio-to-text (ATT), image reasoning (ITT), video-to-text (VTT), image-based reasoning (MM), and point-of-view understanding (POV).
+                                        At Scale AI, I am part of the Quality Analysis and training teams for the reward model in the data science domain, working within the SFT/RLHF pipeline for fine-tuning the Google Gemini multi-modal models. My role focuses on optimizing the reward model by providing expert human feedback and performing final quality audits on a diverse range of projects, including audio-to-text (ATT), image reasoning (ITT and MM), video-to-text (VTT), and point-of-view understanding (POV).
             </p>
                                         <p style={{color: '#10B981', fontSize: '20px', fontWeight: 'bold'}}>
                                         If you're seeking a dedicated data scientist/ML engineer who can bring a unique blend of skills, experience, and passion to your organization, let's connect.</p>
