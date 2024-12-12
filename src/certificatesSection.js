@@ -485,22 +485,30 @@ const CertificatesSection = () => {
       ]
     },
   ];
+    const linkedinBadges = [
+      { id: 1, name: "Python Programming"},
+      { id: 2, name: "Machine Learning"},
+      { id: 3, name: "Bash Scripting"},
+      { id: 4, name: "Git"}
+    ];
 
   return (
     <div className={styles.certificatesSection}>
       <h2 className={styles.sectionHeading}>My Certificates</h2>
           <div className={styles.badgesPreamble}>
-                  <p className={styles.sectionDescription}>
-                    I have completed various courses and certifications to enhance my skills in data science,
-                    machine learning, and cloud technologies. Additionally, I have earned the following LinkedIn Skill Assessment badges:
-                  </p>
-                  <ul className={styles.badgesList}>
-                    <li>Python</li>
-                    <li>Machine Learning</li>
-                    <li>Bash Scripting</li>
-                    <li>Git</li>
-                  </ul>
+                <p className={styles.sectionDescription}>
+                  I have completed various courses and certifications to enhance my skills in data science,
+                  machine learning, and cloud technologies. I have also earned LinkedIn Skill Assessment badges:
+                </p>
+                
+                <div className={styles.linkedinBadgesContainer}>
+                  {linkedinBadges.map((badge) => (
+                    <div key={badge.id} className={styles.linkedinBadge}>
+                      <span className={styles.badgeName}>{badge.name}</span>
+                    </div>
+                  ))}
                 </div>
+              </div>
       <div className={styles.certificatesGrid}>
         {certificates.map((cert, index) => (
           <CertificateCard key={index} {...cert} />

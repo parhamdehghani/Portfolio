@@ -1206,3 +1206,35 @@
   margin-bottom: 0.5rem;
   font-size: 1rem;
 }
+
+.linkedinBadgesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  justify-content: center;
+}
+
+.linkedinBadge {
+  background-color: rgba(16, 185, 129, 0.1); /* Light green background */
+  border: 1px solid #10B981;
+  border-radius: 25px;
+  padding: 0.6rem 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.linkedinBadge:hover {
+  background-color: rgba(16, 185, 129, 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2);
+}
+
+.badgeName {
+  color: #ffffff;
+  font-weight: 500;
+}
+
