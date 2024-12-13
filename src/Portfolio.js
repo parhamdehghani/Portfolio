@@ -124,7 +124,7 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
       <h2 className={styles.subheading1}>Data Science Specialist</h2>
       <h3 className={styles.companyName}>Scale AI</h3>
       <p className={styles.duration}>August 2023 - Present | Montreal, Canada</p>
-      <h4 className={styles.roleTitle}>Current Role: LLM Optimization Specialist</h4>
+      <h4 className={styles.roleTitle}>Current Role: SFT/RLHF Quality Assurance</h4>
       <ul className={styles.experienceList}>
         <li>Perform quality assessment for Google Gemini's reward model training and supervised fine-tuning (SFT) within the RLHF pipeline, ensuring optimal training data quality – data science domain.</li>
         <li>Conduct final quality audits for data integration into reward model, specializing in evaluating complex technical content for fine-tuning processes – data science domain.</li>
@@ -132,7 +132,7 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
        <li>Work at the intersection of reward modeling and fine-tuning, providing systematic feedback that enhances training data quality – data science domain.</li>
        <li> Drive quality improvements in RLHF pipeline through comprehensive evaluation of technical content in data science and math domains.</li>
       </ul>
-      <h4 className={styles.roleTitle}>Past Role: Technical Content Development</h4>
+      <h4 className={styles.roleTitle}>Past Role: SFT/RLHF Technical Production</h4>
       <ul className={styles.experienceList}>
         <li>Specialized in developing and evaluating sophisticated technical content for Google Gemini in the data science domain. My core responsibility involved creating in-depth technical prompts that tested understanding of advanced data science concepts, including statistical analysis, machine learning methodologies, computational and cloud approaches, and algorithms/data structures. I crafted detailed completions demonstrating proper technical reasoning and analytical thinking, ensuring responses accurately reflected complex mathematical and statistical principles. This work involved systematic assessment of conceptual validity and technical accuracy, contributing to the development of high-quality training data for the RLHF pipeline.</li>
       </ul>
