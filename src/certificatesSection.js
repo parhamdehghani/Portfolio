@@ -497,8 +497,7 @@ const CertificatesSection = () => {
       <h2 className={styles.sectionHeading}>My Certificates</h2>
           <div className={styles.badgesPreamble}>
                 <p className={styles.sectionDescription}>
-                  I have completed various courses and certifications to enhance my skills in data science,
-                  machine learning, and cloud technologies. I have also earned LinkedIn Skill Assessment badges:
+                  I have earned LinkedIn Skill Assessment badges in the following skills:
                 </p>
                 
                 <div className={styles.linkedinBadgesContainer}>
@@ -508,6 +507,11 @@ const CertificatesSection = () => {
                     </div>
                   ))}
                 </div>
+          <p className={styles.sectionDescription}>
+            I have also completed various certifications to enhance my skills in data science,
+            machine learning, and cloud technologies as listed below. In addition, I have fulfilled the prestigious Udacity degree in
+          Data Scientist nanodegree program at advanced level.
+          </p>
               </div>
       <div className={styles.certificatesGrid}>
         {certificates.map((cert, index) => (
