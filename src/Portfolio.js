@@ -68,8 +68,8 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
               <h1 className={styles.heading}>
                 Hi, I'm <span style={{color: '#10B981'}}>Parham Dehghani</span>
               </h1>
-              <h2 className={styles.subheading1}>Particle Physics Ph.D. - Data Scientist & ML Engineer</h2>
-              <h3 className={styles.subheading1}>Empowering Insights and Exploring Complexity</h3>
+              <h2 className={styles.subheading1}>Particle Physics Ph.D. | Data Scientist & ML Engineer</h2>
+              <h3 className={styles.subheading1}>Bridging Advanced Physics and Machine Learning for Complex Problem-Solving</h3>
               <p className={styles.paragraph}>
                                         I'm a data scientist who bridges the worlds of machine learning and particle physics. My path started with exploring the universe's tiniest building blocks as a particle physicist, which taught me how to find meaningful patterns in complex data. Now I apply that same curiosity and analytical mindset to developing machine learning solutions that can scale. Working with data feels like solving an intricate puzzle – whether I'm uncovering hidden insights or building end-to-end ML systems, I approach each challenge with the same attention to detail that drew me to physics in the first place.
               </p>
@@ -77,12 +77,12 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
             <p className={styles.paragraph}>
                                         My years in computational particle physics gave me a strong foundation in problem-solving, computing, statistics, and theoretical modeling. I worked with leading researchers to study physics beyond the Standard Model, including supersymmetry. The work involved creating complex simulations of particle collisions and developing machine learning algorithms that could pick out rare signals from noisy data. This experience taught me how to tackle messy, real-world problems – whether I'm analyzing particle collisions or business data, the core challenge remains the same: finding meaningful patterns in complex information and translating theoretical ideas into practical solutions.
             </p>
-            <h3 className={styles.subheading1}>Driving Innovation in Data Science at Scale AI</h3>
+            <h3 className={styles.subheading1}>Applied Data Science Excellence in Multi-Modal AI</h3>
             <p className={styles.paragraph}>
-                                        At Scale AI, I am part of the Quality Assurance and training teams for the reward model in the data science domain, working within the SFT/RLHF pipeline for fine-tuning the Google Gemini multi-modal models. My role focuses on optimizing the reward model by providing expert human feedback and performing final quality audits on a diverse range of projects, including audio-to-text (ATT), image reasoning (ITT and MM), video-to-text (VTT), and point-of-view understanding (POV).
+                                        During my time at Scale AI, I drove quality assurance and training initiatives for reward models in the data science domain, working within the SFT/RLHF pipeline for fine-tuning Google Gemini multi-modal models. I optimized reward models through expert human feedback and performed comprehensive quality audits across diverse projects, including audio-to-text (ATT), image reasoning (ITT and MM), video-to-text (VTT), and point-of-view understanding (POV).
             </p>
                                         <p style={{color: '#10B981', fontSize: '20px', fontWeight: 'bold'}}>
-                                        If you're seeking a dedicated data scientist/ML engineer who can bring a unique blend of skills, experience, and passion to your organization, let's connect.</p>
+                                        I'm seeking opportunities to apply my unique blend of theoretical physics and practical ML engineering to solve complex data challenges. Let's connect to discuss how my background in particle physics and experience with large-scale ML systems can benefit your organization.</p>
             </>
           )}
           {activeSection === 'about' && (
@@ -123,16 +123,16 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
     <div className={styles.experienceCard}>
       <h2 className={styles.subheading1}>Data Science Specialist</h2>
       <h3 className={styles.companyName}>Scale AI</h3>
-      <p className={styles.duration}>August 2023 - Present | Montreal, Canada</p>
-      <h4 className={styles.roleTitle}>Current Role: SFT/RLHF Quality Assurance</h4>
+      <p className={styles.duration}>August 2023 - December 2024 | San Francisco, California, USA</p>
+      <h4 className={styles.roleTitle}>SFT/RLHF Quality Assurance – <i>April 2024 - December 2024</i></h4>
       <ul className={styles.experienceList}>
-        <li>Perform quality assessment for Google Gemini's reward model training and supervised fine-tuning (SFT) within the RLHF pipeline, ensuring optimal training data quality – data science domain.</li>
-        <li>Conduct final quality audits for data integration into reward model, specializing in evaluating complex technical content for fine-tuning processes – data science domain.</li>
-       <li>Support Google Gemini's model optimization by evaluating SFT and reward model outputs across multiple modalities (audio-text, video-text, image generation) – data science domain.</li>
-       <li>Work at the intersection of reward modeling and fine-tuning, providing systematic feedback that enhances training data quality – data science domain.</li>
-       <li> Drive quality improvements in RLHF pipeline through comprehensive evaluation of technical content in data science and math domains.</li>
+        <li>Performed quality assessment for Google Gemini's reward model training and supervised fine-tuning (SFT) within the RLHF pipeline, ensuring optimal training data quality – data science domain.</li>
+        <li> Conducted final quality audits for data integration into reward model, specializing in evaluating complex technical content for fine-tuning processes – data science domain.</li>
+       <li>Supported Google Gemini's model optimization by evaluating SFT and reward model outputs across multiple modalities (audio-text, video-text, image generation, image reasoning) – data science domain.</li>
+       <li>Worked at the intersection of reward modeling and fine-tuning, providing systematic feedback that enhances training data quality – data science domain.</li>
+       <li> Drived quality improvements in RLHF pipeline through comprehensive evaluation of technical content in data science and math domains.</li>
       </ul>
-      <h4 className={styles.roleTitle}>Past Role: SFT/RLHF Technical Production</h4>
+      <h4 className={styles.roleTitle}>SFT/RLHF Technical Production – <i>August 2023 - March 2024</i></h4>
       <ul className={styles.experienceList}>
         <li>Specialized in developing and evaluating sophisticated technical content for Google Gemini in the data science domain. My core responsibility involved creating in-depth technical prompts that tested understanding of advanced data science concepts, including statistical analysis, machine learning methodologies, computational and cloud approaches, and algorithms/data structures. I crafted detailed completions demonstrating proper technical reasoning and analytical thinking, ensuring responses accurately reflected complex mathematical and statistical principles. This work involved systematic assessment of conceptual validity and technical accuracy, contributing to the development of high-quality training data for the RLHF pipeline.</li>
       </ul>
@@ -141,7 +141,7 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
     <div className={styles.experienceCard}>
       <h2 className={styles.subheading1}>Machine Learning Quality Analyst</h2>
       <h3 className={styles.companyName}>TELUS Digital AI Data Solutions</h3>
-      <p className={styles.duration}>April 2022 - August 2023 | Montreal, Canada</p>
+      <p className={styles.duration}>April 2022 - July 2023 | San Francisco, California, USA</p>
       <ul className={styles.experienceList}>
         <li>Contributed to Google's search engine optimization through systematic evaluation and analysis of search results quality. Applied analytical methodology to assess relevance and utility of various ML system outputs, including web search results, map data, image recognition, and natural language processing. Conducted detailed evaluations of machine learning model performance across multiple modalities, providing structured feedback to improve search algorithm accuracy and user experience.</li>
         <li>Key responsibilities involved analyzing complex query-result relationships, evaluating contextual relevance, and assessing AI-driven content quality across different data types. This role developed strong analytical skills in understanding ML system behavior and output quality assessment, while working with established evaluation frameworks to ensure consistent and reliable feedback for model improvement.</li>
@@ -149,16 +149,16 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
     </div>
 
     <div className={styles.experienceCard}>
-      <h2 className={styles.subheading1}>Ph.D. Researcher in Computational Particle Physics</h2>
+      <h2 className={styles.subheading1}>Research Associate in Computational Particle Physics</h2>
+      <h3 className={styles.subheading1}>Specialized in collider phenomenology</h3>
       <h3 className={styles.companyName}>Concordia University</h3>
-      <p className={styles.duration}>September 2020 - July 2024 | Montreal, Canada</p>
+      <p className={styles.duration}>September 2020 - March 2025 (Expected) | Montreal, Canada</p>
       <ul className={styles.experienceList}>
-        <li>Collaborated with Experts: Worked closely with Dr. Mariana Frank from Concordia University and Dr. Benjamin Fuks from Sorbonne University on low-energy BSM phenomenology, focusing on supersymmetric and BSM models and their real-world applicability using advanced computational techniques. This collaboration culminated in publishing two research papers in prestigious particle physics journals with an impact factor (IF) > 4.</li>
-        <li>Theoretical Model Building: Developed and analyzed extended SUSY and BSM models (vector-like leptons) by modifying the SM gauge group to explore new Higgs content and potential dark matter candidates. </li>
-        <li>Collider Simulations: Simulated collider traces for BSM signals, utilizing specialized software like MadGraph_aMC for process simulation, SPheno for benchmark generation given the model file, SARAH for building the SUSY and BSM model, and micrOMEGAs for calculating the relic density to recognize the DM candidate. Conducted scientific computations on the Beluga cluster for large-scale scans of the hyper-dimensional parameter space of the theorized SUSY and BSM models.</li>
-        <li>Advanced ML Algorithms: Applied sophisticated ML classifiers for jet tagging, anomaly detection, and background suppression in LHC data, significantly improving signal identification and distinguishing important events from noise. These ML applications enhanced the precision and efficiency of collider simulations, enabling the identification of new physics signals amidst large datasets.</li>
-        <li>Big Data Analysis & Visualization: Conducted extensive statistical analysis and visualized results using Matplotlib to distinguish discoveries from noise and finalize the analyses results.</li>
-        <li>Coding Expertise: Developed and optimized Python and Bash scripts to automate complex data processing tasks, hyper-dimensional parameter space scans, enhancing efficiency in large-scale collider simulations at the collider level, and data analysis.</li>
+        <li>Collaborate with Experts: Work closely with Dr. Mariana Frank from Concordia University and Dr. Benjamin Fuks from Sorbonne University (and ATLAS collaboration at CERN) on low-energy BSM phenomenology, focusing on supersymmetric and BSM models and their real-world applicability using advanced computational techniques. This collaboration has culminated in publishing two research papers in prestigious particle physics journals with an impact factor (IF) > 4 while another research paper on the imprint of massive Majorana neutrinos in muon colliders is ongoing and to be published soon.</li>
+        <li> Theoretical Model Building: Develop and analyze extended SUSY and BSM models by modifying the SM gauge group to explore new Higgs content, potential dark matter candidates, and settle the phenomenological constraints per the recent experiments.  </li>
+        <li>Collider Simulations: Simulate collider traces for BSM signals, utilizing specialized software like MadGraph_aMC for process simulation, SPheno for benchmark generation given the model file, SARAH for building the SUSY and BSM model, and micrOMEGAs for calculating the relic density to recognize the DM candidate. Scientific computations on the Beluga cluster for large-scale scans of the hyper-dimensional parameter space of the theorized SUSY and BSM models.</li>
+        <li>Advanced ML Algorithms: Apply sophisticated ML classifiers for jet tagging, anomaly detection, and background suppression in LHC data, significantly improving signal identification and distinguishing important events from noise. These ML applications enhance the precision and efficiency of collider simulations, enabling the identification of new physics signals amidst large datasets.</li>
+        <li>Coding Expertise: Develop and optimize Python and Bash scripts to automate complex data processing tasks, hyper-dimensional parameter space scans, enhancing efficiency in large-scale collider simulations at the collider level, and data analysis.</li>
       </ul>
     </div>
   </>
@@ -167,6 +167,24 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
   <div className={styles.educationSection}>
     <h1 className={styles.heading}>Educational Journey</h1>
     
+    <div className={styles.timelineItem}>
+      <div className={styles.timelineContent}>
+        <h2 className={styles.institutionName}>Concordia University</h2>
+        <h3 className={styles.programName}>Particle Physics PhD</h3>
+        <p className={styles.duration}>September 2020 - March 2025 (Expected)</p>
+        <div className={styles.programDetails}>
+          <p>PhD program focused on BSM phenomenology, including:</p>
+          <ul className={styles.courseList}>
+            <li>Theoretical model building</li>
+            <li>Use of particle physics software packages</li>
+            <li>Collider phenomenology (hadronic and leptonic)</li>
+            <li>Application of advanced machine learning algorithms to inspect relevant phenomenology</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+                    
+                                            
     <div className={styles.timeline}>
       <div className={styles.timelineItem}>
         <div className={styles.timelineContent}>
@@ -187,21 +205,6 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
         </div>
       </div>
 
-      <div className={styles.timelineItem}>
-        <div className={styles.timelineContent}>
-          <h2 className={styles.institutionName}>Concordia University</h2>
-          <h3 className={styles.programName}>Particle Physics PhD</h3>
-          <p className={styles.duration}>September 2020 - September 2024</p>
-          <div className={styles.programDetails}>
-            <p>PhD program focused on BSM phenomenology, including:</p>
-            <ul className={styles.courseList}>
-              <li>Theoretical model building</li>
-              <li>Use of particle physics software packages</li>
-              <li>Application of advanced machine learning algorithms to inspect relevant phenomenology</li>
-            </ul>
-          </div>
-        </div>
-      </div>
 
       <div className={styles.timelineItem}>
         <div className={styles.timelineContent}>
