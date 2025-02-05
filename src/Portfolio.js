@@ -120,36 +120,9 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
   <>
     <h1 className={styles.heading}>Professional Experiences</h1>
     
-    <div className={styles.experienceCard}>
-      <h2 className={styles.subheading1}>Data Science Specialist</h2>
-      <h3 className={styles.companyName}>Scale AI</h3>
-      <p className={styles.duration}>August 2023 - December 2024 | San Francisco, California, USA</p>
-      <h4 className={styles.roleTitle}>SFT/RLHF Quality Assurance – <i>April 2024 - December 2024</i></h4>
-      <ul className={styles.experienceList}>
-        <li>Performed quality assessment for Google Gemini's reward model training and supervised fine-tuning (SFT) within the RLHF pipeline, ensuring optimal training data quality – data science domain.</li>
-        <li> Conducted final quality audits for data integration into reward model, specializing in evaluating complex technical content for fine-tuning processes – data science domain.</li>
-       <li>Supported Google Gemini's model optimization by evaluating SFT and reward model outputs across multiple modalities (audio-text, video-text, image generation, image reasoning) – data science domain.</li>
-       <li>Worked at the intersection of reward modeling and fine-tuning, providing systematic feedback that enhances training data quality – data science domain.</li>
-       <li> Drived quality improvements in RLHF pipeline through comprehensive evaluation of technical content in data science and math domains.</li>
-      </ul>
-      <h4 className={styles.roleTitle}>SFT/RLHF Technical Production – <i>August 2023 - March 2024</i></h4>
-      <ul className={styles.experienceList}>
-        <li>Specialized in developing and evaluating sophisticated technical content for Google Gemini in the data science domain. My core responsibility involved creating in-depth technical prompts that tested understanding of advanced data science concepts, including statistical analysis, machine learning methodologies, computational and cloud approaches, and algorithms/data structures. I crafted detailed completions demonstrating proper technical reasoning and analytical thinking, ensuring responses accurately reflected complex mathematical and statistical principles. This work involved systematic assessment of conceptual validity and technical accuracy, contributing to the development of high-quality training data for the RLHF pipeline.</li>
-      </ul>
-    </div>
 
-    <div className={styles.experienceCard}>
-      <h2 className={styles.subheading1}>Machine Learning Quality Analyst</h2>
-      <h3 className={styles.companyName}>TELUS Digital AI Data Solutions</h3>
-      <p className={styles.duration}>April 2022 - July 2023 | San Francisco, California, USA</p>
-      <ul className={styles.experienceList}>
-        <li>Contributed to Google's search engine optimization through systematic evaluation and analysis of search results quality. Applied analytical methodology to assess relevance and utility of various ML system outputs, including web search results, map data, image recognition, and natural language processing. Conducted detailed evaluations of machine learning model performance across multiple modalities, providing structured feedback to improve search algorithm accuracy and user experience.</li>
-        <li>Key responsibilities involved analyzing complex query-result relationships, evaluating contextual relevance, and assessing AI-driven content quality across different data types. This role developed strong analytical skills in understanding ML system behavior and output quality assessment, while working with established evaluation frameworks to ensure consistent and reliable feedback for model improvement.</li>
-      </ul>
-    </div>
-
-    <div className={styles.experienceCard}>
-      <h2 className={styles.subheading1}>Research Associate in Computational Particle Physics</h2>
+	<div className={styles.experienceCard}>
+      <h2 className={styles.subheading1}>Research Assistant in Computational Particle Physics</h2>
       <h3 className={styles.subheading1}>Specialized in collider phenomenology</h3>
       <h3 className={styles.companyName}>Concordia University</h3>
       <p className={styles.duration}>September 2020 - March 2025 (Expected) | Montreal, Canada</p>
@@ -161,6 +134,37 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
         <li>Coding Expertise: Develop and optimize Python and Bash scripts to automate complex data processing tasks, hyper-dimensional parameter space scans, enhancing efficiency in large-scale collider simulations at the collider level, and data analysis.</li>
       </ul>
     </div>
+
+    <div className={styles.experienceCard}>
+      <h2 className={styles.subheading1}>SFT/RLHF Data Scientist</h2>
+      <h3 className={styles.companyName}>Scale AI</h3>
+      <p className={styles.duration}>August 2023 - December 2024 | San Francisco, California, USA</p>
+      
+      <ul className={styles.experienceList}>
+        <li>Performed quality assessment for Google Gemini's reward model training and supervised fine-tuning (SFT) within the RLHF pipeline, ensuring optimal training data quality – data science domain.</li>
+        <li> Conducted final quality audits for data integration into reward model, specializing in evaluating complex technical content for fine-tuning processes – data science domain.</li>
+       <li>Supported Google Gemini's model optimization by evaluating SFT and reward model outputs across multiple modalities (audio-text, video-text, image generation, image reasoning) – data science domain.</li>
+       <li>Worked at the intersection of reward modeling and fine-tuning, providing systematic feedback that enhances training data quality – data science domain.</li>
+       <li> Drived quality improvements in RLHF pipeline through comprehensive evaluation of technical content in data science and math domains.</li>
+      </ul>
+    </div>
+
+    <div className={styles.experienceCard}>
+      <h2 className={styles.subheading1}>Machine Learning Quality Analyst</h2>
+      <h3 className={styles.companyName}>TELUS Digital AI Data Solutions</h3>
+      <p className={styles.duration}>April 2022 - Now | San Francisco, California, USA</p>
+      <ul className={styles.experienceList}>
+        <li>Contributing to Google's search engine optimization by systematically evaluating and analyzing search results quality across different aspects of the platform. This involved working with comprehensive assessment frameworks and methodologies to measure result accuracy and relevance.</li>
+
+        <li>Leading quality assessment of machine learning model performance, providing structured feedback to improve search algorithm accuracy and user experience across multiple data types.</li>
+
+		<li>Analyzing complex query-result relationships and assessing AI-driven content quality, developing strong analytical skills in ML system behavior while working within established evaluation frameworks.</li>
+
+		<li>Conducting detailed evaluations of machine learning model performance across multiple modalities, providing structured and actionable feedback to engineering teams to improve search algorithm accuracy and enhance overall user experience.</li>
+      </ul>
+    </div>
+
+    
   </>
 )}
          {activeSection === 'education' && (
