@@ -120,39 +120,39 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
   <>
     <h1 className={styles.heading}>Professional Experiences</h1>
     
+<div className={styles.experienceCard}>
+      <h2 className={styles.subheading1}>SFT/RLHF ML Specialist</h2>
+      <h3 className={styles.companyName}>Scale AI</h3>
+      <p className={styles.duration}>August 2023 - January 2025 | Montreal, Quebec, Canada</p>
+      
+      <ul className={styles.experienceList}>
+        <li>Led quality assessment of Google Gemini's SFT/RLHF pipeline across 5 modalities (text, image, video, voice, POV), achieving 18% performance improvement in data science domain by implementing systematic evaluation protocols, developing modality-specific benchmarks, and establishing comprehensive quality metrics to measure model understanding and generation capabilities across different types of content.</li>
+        <li> Led quality assessment of Google Gemini's SFT/RLHF pipeline across 5 modalities (text, image, video, voice, POV), achieving 18% performance improvement in data science domain by implementing systematic evaluation protocols, developing modality-specific benchmarks, and establishing comprehensive quality metrics to measure model understanding and generation capabilities across different types of content.</li>
+       <li>Led quality assessment of Google Gemini's SFT/RLHF pipeline across 5 modalities (text, image, video, voice, POV), achieving 18% performance improvement in data science domain by implementing systematic evaluation protocols, developing modality-specific benchmarks, and establishing comprehensive quality metrics to measure model understanding and generation capabilities across different types of content.</li>
+       <li>Led quality assessment of Google Gemini's SFT/RLHF pipeline across 5 modalities (text, image, video, voice, POV), achieving 18% performance improvement in data science domain by implementing systematic evaluation protocols, developing modality-specific benchmarks, and establishing comprehensive quality metrics to measure model understanding and generation capabilities across different types of content.</li>
+      </ul>
+    </div>
 
 	<div className={styles.experienceCard}>
-      <h2 className={styles.subheading1}>Research Assistant in Computational Particle Physics</h2>
-      <h3 className={styles.subheading1}>Specialized in collider phenomenology</h3>
-      <h3 className={styles.companyName}>Concordia University</h3>
-      <p className={styles.duration}>September 2020 - March 2025 (Expected) | Montreal, Canada</p>
+      <h2 className={styles.subheading1}>ML Research Associate</h2>
+    
+      <h3 className={styles.companyName}>CIPS</h3>
+      <p className={styles.duration}>September 2020 - January 2025 | Montreal, Canada</p>
       <ul className={styles.experienceList}>
-        <li>Collaborate with Experts: Work closely with Dr. Mariana Frank from Concordia University and Dr. Benjamin Fuks from Sorbonne University (and ATLAS collaboration at CERN) on low-energy BSM phenomenology, focusing on supersymmetric and BSM models and their real-world applicability using advanced computational techniques. This collaboration has culminated in publishing two research papers in prestigious particle physics journals with an impact factor (IF) > 4 while another research paper on the imprint of massive Majorana neutrinos in muon colliders is ongoing and to be published soon.</li>
-        <li> Theoretical Model Building: Develop and analyze extended SUSY and BSM models by modifying the SM gauge group to explore new Higgs content, potential dark matter candidates, and settle the phenomenological constraints per the recent experiments.  </li>
+        <li>Developed and deployed classification models (XGBoost, DNN) to identify dark matter candidates in BLRSM SUSY model, leveraging Beluga cluster for processing 500K+ collision events, optimizing model hyperparameters through grid search for feature importance analysis, implementing automated data preprocessing pipelines for efficient parameter space exploration across 15+ dimensions, and achieving 82% accuracy in dark matter candidate classification while reducing false positive rate to under 5%.</li>
+        <li> Implemented diffusion-based generative models as a replacement for Pythia event generator, achieving 90% reduction in hadronization simulation time for BSM phenomenology by designing custom neural architectures with physics-informed loss functions, optimizing the diffusion process through advanced scheduling techniques, and validating generated particle distributions against theoretical predictions with 95% correlation accuracy. Processed over 1M training samples to ensure robust model performance across different physics scenarios.  </li>
         <li>Collider Simulations: Simulate collider traces for BSM signals, utilizing specialized software like MadGraph_aMC for process simulation, SPheno for benchmark generation given the model file, SARAH for building the SUSY and BSM model, and micrOMEGAs for calculating the relic density to recognize the DM candidate. Scientific computations on the Beluga cluster for large-scale scans of the hyper-dimensional parameter space of the theorized SUSY and BSM models.</li>
-        <li>Advanced ML Algorithms: Apply sophisticated ML classifiers for jet tagging, anomaly detection, and background suppression in LHC data, significantly improving signal identification and distinguishing important events from noise. These ML applications enhance the precision and efficiency of collider simulations, enabling the identification of new physics signals amidst large datasets.</li>
+        <li>Engineered ML solutions employing boosted decision trees to improve dilepton resonance detection via massive Majorana neutrinos in collaboration with ATLAS and Sorbonne University, achieving 23% lower upper limits on muon-neutrino mixing coefficient compared to existing limits through sophisticated feature engineering of 20+ collision parameters, implementing ensemble methods with cross-validation, and developing custom evaluation metrics aligned with physics significance criteria. Coordinated with international team of 15+ physicists to validate results and prepare documentation for publication.</li>
         <li>Coding Expertise: Develop and optimize Python and Bash scripts to automate complex data processing tasks, hyper-dimensional parameter space scans, enhancing efficiency in large-scale collider simulations at the collider level, and data analysis.</li>
       </ul>
     </div>
 
-    <div className={styles.experienceCard}>
-      <h2 className={styles.subheading1}>SFT/RLHF Data Scientist</h2>
-      <h3 className={styles.companyName}>Scale AI</h3>
-      <p className={styles.duration}>August 2023 - December 2024 | San Francisco, California, USA</p>
-      
-      <ul className={styles.experienceList}>
-        <li>Performed quality assessment for Google Gemini's reward model training and supervised fine-tuning (SFT) within the RLHF pipeline, ensuring optimal training data quality – data science domain.</li>
-        <li> Conducted final quality audits for data integration into reward model, specializing in evaluating complex technical content for fine-tuning processes – data science domain.</li>
-       <li>Supported Google Gemini's model optimization by evaluating SFT and reward model outputs across multiple modalities (audio-text, video-text, image generation, image reasoning) – data science domain.</li>
-       <li>Worked at the intersection of reward modeling and fine-tuning, providing systematic feedback that enhances training data quality – data science domain.</li>
-       <li> Drived quality improvements in RLHF pipeline through comprehensive evaluation of technical content in data science and math domains.</li>
-      </ul>
-    </div>
+    
 
     <div className={styles.experienceCard}>
       <h2 className={styles.subheading1}>Machine Learning Quality Analyst</h2>
       <h3 className={styles.companyName}>TELUS Digital AI Data Solutions</h3>
-      <p className={styles.duration}>April 2022 - Now | San Francisco, California, USA</p>
+      <p className={styles.duration}>April 2022 - Present | San Francisco, California, USA (Freelance)</p>
       <ul className={styles.experienceList}>
         <li>Contributing to Google's search engine optimization by systematically evaluating and analyzing search results quality across different aspects of the platform. This involved working with comprehensive assessment frameworks and methodologies to measure result accuracy and relevance.</li>
 
@@ -175,7 +175,6 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
       <div className={styles.timelineContent}>
         <h2 className={styles.institutionName}>Concordia University</h2>
         <h3 className={styles.programName}>Particle Physics PhD</h3>
-        <p className={styles.duration}>September 2020 - March 2025 (Expected)</p>
         <div className={styles.programDetails}>
           <p>PhD program focused on BSM phenomenology, including:</p>
           <ul className={styles.courseList}>
@@ -194,7 +193,7 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
         <div className={styles.timelineContent}>
           <h2 className={styles.institutionName}>Oxford Mathematics</h2>
           <h3 className={styles.programName}>Summer School, ML Representation Learning and Generative AI</h3>
-          <p className={styles.duration}>July 2024</p>
+          
           <div className={styles.programDetails}>
             <p>A comprehensive 22-hour course covering advanced topics in machine learning:</p>
             <ul className={styles.courseList}>
@@ -214,7 +213,7 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
         <div className={styles.timelineContent}>
           <h2 className={styles.institutionName}>Udacity</h2>
           <h3 className={styles.programName}>Data Scientist Nanodegree Program, Artificial Intelligence</h3>
-          <p className={styles.duration}>September 2022 - May 2023</p>
+          
           <div className={styles.programDetails}>
             <p>Advanced program covering:</p>
             <ul className={styles.courseList}>
@@ -233,7 +232,7 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
         <div className={styles.timelineContent}>
           <h2 className={styles.institutionName}>McGill University</h2>
           <h3 className={styles.programName}>Inter-university program, Particle Physics PhD</h3>
-          <p className={styles.duration}>September 2020 - June 2021</p>
+       
           <div className={styles.programDetails}>
             <p>Completed PhD courses including:</p>
             <ul className={styles.courseList}>
