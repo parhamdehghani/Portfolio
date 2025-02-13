@@ -195,7 +195,7 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
           <h3 className={styles.programName}>Summer School, ML Representation Learning and Generative AI</h3>
           
           <div className={styles.programDetails}>
-            <p>A comprehensive 22-hour course covering advanced topics in machine learning:</p>
+            <p>A comprehensive summer school covering advanced topics in machine learning:</p>
             <ul className={styles.courseList}>
               <li>Large language models and agents</li>
               <li>Deep learning techniques</li>
@@ -231,13 +231,14 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
       <div className={styles.timelineItem}>
         <div className={styles.timelineContent}>
           <h2 className={styles.institutionName}>McGill University</h2>
-          <h3 className={styles.programName}>Inter-university program, Particle Physics PhD</h3>
+          <h3 className={styles.programName}>Inter-university graduate, Particle Physics PhD</h3>
        
           <div className={styles.programDetails}>
             <p>Completed PhD courses including:</p>
             <ul className={styles.courseList}>
-              <li>Advanced quantum field theory</li>
-              <li>Standard model</li>
+              <li>Advanced Quantum Field Theory I&II</li>
+              <li>Advanced Standard Model</li>
+		<li>Computational Particle Physics</li>
             </ul>
           </div>
         </div>
