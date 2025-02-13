@@ -137,7 +137,7 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
       <h2 className={styles.subheading1}>ML Research Associate</h2>
     
       <h3 className={styles.companyName}>CIPS</h3>
-      <p className={styles.duration}>September 2020 - January 2025 | Montreal, Canada</p>
+      <p className={styles.duration}>September 2020 - September 2024 | Montreal, Canada</p>
       <ul className={styles.experienceList}>
         <li>Developed and deployed classification models (XGBoost, DNN) to identify dark matter candidates in BLRSM SUSY model, leveraging Beluga cluster for processing 500K+ collision events, optimizing model hyperparameters through grid search for feature importance analysis, implementing automated data preprocessing pipelines for efficient parameter space exploration across 15+ dimensions, and achieving 82% accuracy in dark matter candidate classification while reducing false positive rate to under 5%.</li>
         <li> Implemented diffusion-based generative models as a replacement for Pythia event generator, achieving 90% reduction in hadronization simulation time for BSM phenomenology by designing custom neural architectures with physics-informed loss functions, optimizing the diffusion process through advanced scheduling techniques, and validating generated particle distributions against theoretical predictions with 95% correlation accuracy. Processed over 1M training samples to ensure robust model performance across different physics scenarios.  </li>
