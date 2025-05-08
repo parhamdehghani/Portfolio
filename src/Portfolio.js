@@ -119,48 +119,93 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
            {activeSection === 'experience' && (
   <>
     <h1 className={styles.heading}>Professional Experiences</h1>
+
+<div className={styles.experienceCard}>
+  <h2 className={styles.subheading1}>Personalized Internet Assessor</h2>
+  <h3 className={styles.companyName}>TELUS International AI Data Solutions</h3>
+  <p className={styles.duration}>2022 - Present</p>
+  
+  <ul className={styles.experienceList}>
+    <li>Analyze and rate web search results to enhance algorithm relevance and improve user experience.
+    </li>
+    <li> Assess content quality, accuracy, and cultural suitability based on detailed evaluation guidelines.</li>
+    <li>Provide structured feedback on language use, tone, and local context to support AI training.
+    </li>
+    <li> Deliver consistent data evaluations under strict deadlines while upholding accuracy standards. </li>
+  </ul>
+</div>
     
 <div className={styles.experienceCard}>
-      <h2 className={styles.subheading1}>SFT/RLHF ML Specialist</h2>
+      <h2 className={styles.subheading1}>Machine Learning Specialist</h2>
       <h3 className={styles.companyName}>Scale AI</h3>
-      <p className={styles.duration}>August 2023 - January 2025 | Montreal, Quebec, Canada</p>
+      <p className={styles.duration}>2023 - Present</p>
       
       <ul className={styles.experienceList}>
-        <li>Led quality assessment of Google Gemini's SFT/RLHF pipeline across 5 modalities (text, image, video, voice, POV), achieving 18% performance improvement in data science domain by implementing systematic evaluation protocols, developing modality-specific benchmarks, and establishing comprehensive quality metrics to measure model understanding and generation capabilities across different types of content.</li>
-        <li> Scaled production assessment frameworks for model training optimization across 2 domains (math, data science), with 1-month successful delivery of multi-turn conversation project through architecting automated evaluation systems, implementing scalable testing procedures, and establishing robust quality control measures that ensured consistent performance across diverse use cases.</li>
-       <li>Authored over 200 technical ML prompts for supervised fine-tuning while mentoring 10+ team members in DS production team, focusing on creating high-quality training data, implementing best practices for prompt engineering, and developing comprehensive guidelines for consistent prompt creation across teams.</li>
-       <li> Developed and maintained standardized validation systems with strict quality checks and LaTeX integration guidelines for 20+ production team members by implementing real-time feedback mechanisms for prompt quality, developing automated checks for technical accuracy, mathematical notation consistency, and prompt complexity levels, and creating an integrated workflow that reduced review cycles by 40% while maintaining 98% accuracy in technical content delivery. Established comprehensive documentation protocols for mathematical formula representation, code snippet formatting, and cross-reference management in LaTeX to ensure consistent high-quality outputs across the team. </li>
+        <li>Conduct quality assessment and evaluation of Google Gemini’s SFT/RLHF pipeline across five modalities (text, image, video, voice, POV), improving model performance by 18% in the data science domain.
+        </li>
+        <li> Designed and implemented production assessment frameworks for optimizing model training in math and data science domains, authoring 200+ technical ML prompts.
+        </li>
+       <li>Mentored and trained 10+ team members in ML pipeline production, ensuring consistency and accuracy in model evaluation processes.
+       </li>
+       <li> Develop automated validation systems for math and data science domains, integrating LaTeX guidelines and quality control checks for a 20+ member production team.
+       </li>
       </ul>
     </div>
 
 	<div className={styles.experienceCard}>
-      <h2 className={styles.subheading1}>ML Research Associate</h2>
+      <h2 className={styles.subheading1}>Ph.D. Researcher in Computational Particle Physics</h2>
     
-      <h3 className={styles.companyName}>CIPS</h3>
-      <p className={styles.duration}>September 2020 - September 2024 | Montreal, Canada</p>
+      <h3 className={styles.companyName}>Concordia University</h3>
+      <p className={styles.duration}>2020 - 2025</p>
       <ul className={styles.experienceList}>
-        <li>Developed and deployed classification models (XGBoost, DNN) to identify dark matter candidates in BLRSM SUSY model, leveraging Beluga cluster for processing 500K+ collision events, optimizing model hyperparameters through grid search for feature importance analysis, implementing automated data preprocessing pipelines for efficient parameter space exploration across 15+ dimensions, and achieving 82% accuracy in dark matter candidate classification while reducing false positive rate to under 5%.</li>
-        <li> Implemented diffusion-based generative models as a replacement for Pythia event generator, achieving 90% reduction in hadronization simulation time for BSM phenomenology by designing custom neural architectures with physics-informed loss functions, optimizing the diffusion process through advanced scheduling techniques, and validating generated particle distributions against theoretical predictions with 95% correlation accuracy. Processed over 1M training samples to ensure robust model performance across different physics scenarios.  </li>
-        <li>Collider Simulations: Simulate collider traces for BSM signals, utilizing specialized software like MadGraph_aMC for process simulation, SPheno for benchmark generation given the model file, SARAH for building the SUSY and BSM model, and micrOMEGAs for calculating the relic density to recognize the DM candidate. Scientific computations on the Beluga cluster for large-scale scans of the hyper-dimensional parameter space of the theorized SUSY and BSM models.</li>
-        <li>Engineered ML solutions employing boosted decision trees to improve dilepton resonance detection via massive Majorana neutrinos in collaboration with ATLAS and Sorbonne University, achieving 23% lower upper limits on muon-neutrino mixing coefficient compared to existing limits through sophisticated feature engineering of 20+ collision parameters, implementing ensemble methods with cross-validation, and developing custom evaluation metrics aligned with physics significance criteria. Coordinated with international team of 15+ physicists to validate results and prepare documentation for publication.</li>
-        <li>Coding Expertise: Develop and optimize Python and Bash scripts to automate complex data processing tasks, hyper-dimensional parameter space scans, enhancing efficiency in large-scale collider simulations at the collider level, and data analysis.</li>
+        <li>Developed and analyzed Beyond Standard Model (BSM) models using sophisticated simulation tools, publishing research in high-impact journals (JHEP, EPJC, and PRD).
+        </li>
+        <li> Conducted large-scale computations on clusters, simulating collider traces using MG5_aMC and analyzing collider effects from ATLAS, CMS, and future muon colliders.
+        </li>
+        <li>Applied machine learning algorithms for jet tagging, anomaly detection, and background suppression to improve particle classification accuracy and heavy particle sensitivity.
+        </li>
+        <li>Automated parameter space exploration for BSM models using Python and Bash, enabling large-scale simulations on computing clusters.
+        </li>
       </ul>
     </div>
 
     
 
     <div className={styles.experienceCard}>
-      <h2 className={styles.subheading1}>Machine Learning Quality Analyst</h2>
-      <h3 className={styles.companyName}>TELUS Digital AI Data Solutions</h3>
-      <p className={styles.duration}>April 2022 - Present | San Francisco, California, USA (Freelance)</p>
+      <h2 className={styles.subheading1}>Data Scientist</h2>
+      <h3 className={styles.companyName}>Freelance</h3>
+      <p className={styles.duration}>2023 - 2024</p>
       <ul className={styles.experienceList}>
-        <li>Contributing to Google's search engine optimization by systematically evaluating and analyzing search results quality across different aspects of the platform. This involved working with comprehensive assessment frameworks and methodologies to measure result accuracy and relevance.</li>
+        <li>Delivered end-to-end data science solutions for clients across diverse industries, optimizing operational efficiency through custom ML implementations.</li>
 
-        <li>Leading quality assessment of machine learning model performance, providing structured feedback to improve search algorithm accuracy and user experience across multiple data types.</li>
+        <li>Designed specialized models for recommendation systems, churn prediction, and anomaly detection with demonstrable business impact.
+        </li>
 
-		<li>Analyzing complex query-result relationships and assessing AI-driven content quality, developing strong analytical skills in ML system behavior while working within established evaluation frameworks.</li>
+		<li>Developed automated data pipelines using AWS/GCP services while ensuring data quality throughout processing workflows.
+    </li>
 
-		<li>Conducting detailed evaluations of machine learning model performance across multiple modalities, providing structured and actionable feedback to engineering teams to improve search algorithm accuracy and enhance overall user experience.</li>
+		<li>Created visualizations to communicate insights to clients and provided strategic data implementation consultation.</li>
+      </ul>
+    </div>
+
+    <div className={styles.experienceCard}>
+      <h2 className={styles.subheading1}>Machine Learning Engineer</h2>
+      <h3 className={styles.companyName}>PYR System</h3>
+      <p className={styles.duration}>2021 - 2023</p>
+      <ul className={styles.experienceList}>
+        <li>Improved data classification and decreased the need for labeling by using exploratory data analysis (EDA) to find candidate data for less common classes.
+        </li>
+
+        <li>Implemented pipeline for data transferring that automated and integrated the functionalities of four existing services: extractor, validator, documents-index-identifier, and indexer.
+
+        </li>
+
+		<li>Created a news retrieval system that decreased fake news by 23% by tracing the origins of news.
+
+    </li>
+
+		<li>Developed an Airflow alert system that improved the team's monitoring and response time for Airflow DAGs by 34%.
+    </li>
       </ul>
     </div>
 
