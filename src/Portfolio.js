@@ -68,21 +68,21 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
               <h1 className={styles.heading}>
                 Hi, I'm <span style={{color: '#10B981'}}>Parham Dehghani</span>
               </h1>
-              <h2 className={styles.subheading1}>Particle Physics Ph.D. | Data Scientist & ML Engineer</h2>
+              <h2 className={styles.subheading1}>Particle Physics Ph.D. | Data Scientist </h2>
               <h3 className={styles.subheading1}>Bridging Advanced Physics and Machine Learning for Complex Problem-Solving</h3>
               <p className={styles.paragraph}>
-                                        I'm a data scientist who bridges the worlds of machine learning and particle physics. My path started with exploring the universe's tiniest building blocks as a particle physicist, which taught me how to find meaningful patterns in complex data. Now I apply that same curiosity and analytical mindset to developing machine learning solutions that can scale. Working with data feels like solving an intricate puzzle – whether I'm uncovering hidden insights or building end-to-end ML systems, I approach each challenge with the same attention to detail that drew me to physics in the first place.
+                                        I'm a data scientist who bridges the worlds of machine learning and particle physics. My path started with exploring the universe's tiniest building blocks as a particle physicist, which taught me how to find meaningful patterns in complex data. Now, I apply that same curiosity and analytical mindset to developing machine learning solutions that can scale. Working with data feels like solving an intricate puzzle—whether I'm uncovering hidden insights or contributing to end-to-end ML systems, I approach each challenge with the same attention to detail that drew me to the intricate world of collider physics in the first place.
               </p>
             <h3 className={styles.subheading1}>Bridging the Gap Between Theory and Application</h3>
             <p className={styles.paragraph}>
-                                        My years in computational particle physics gave me a strong foundation in problem-solving, computing, statistics, and theoretical modeling. I worked with leading researchers to study physics beyond the Standard Model, including supersymmetry. The work involved creating complex simulations of particle collisions and developing machine learning algorithms that could pick out rare signals from noisy data. This experience taught me how to tackle messy, real-world problems – whether I'm analyzing particle collisions or business data, the core challenge remains the same: finding meaningful patterns in complex information and translating theoretical ideas into practical solutions.
+                                        My years in computational particle physics gave me a strong foundation in solving complex problems, computing, statistics, and theoretical hypotheses. I worked with leading researchers to study physics beyond the Standard Model of particle physics through a data-driven approach. The work involved creating complex simulations of particle collisions and developing machine learning algorithms that could pick out rare signals from noisy data in BSM hypotheses. This experience taught me how to tackle messy, real-world problems—whether I'm analyzing particle collisions or business data, the core challenge remains the same: finding meaningful patterns in complex data and translating hypotheses into practical solutions.
             </p>
             <h3 className={styles.subheading1}>Applied Data Science Excellence in Multi-Modal AI</h3>
             <p className={styles.paragraph}>
-                                        During my time at Scale AI, I drove quality assurance and training initiatives for reward models in the data science domain, working within the SFT/RLHF pipeline for fine-tuning Google Gemini multi-modal models. I optimized reward models through expert human feedback and performed comprehensive quality audits across diverse projects, including audio-to-text (ATT), image reasoning (ITT and MM), video-to-text (VTT), and point-of-view understanding (POV).
+                                        During my time at Scale AI, I am involved in quality assurance and training initiatives for both SFT and reward models in the data science and math domains, working within the SFT/RLHF pipeline for fine-tuning cutting-edge multimodal LLMS (including Google Gemini). I evaluate reward models through expert human feedback and perform comprehensive quality audits across diverse projects, including audio-to-text (ATT), image reasoning (ITT and MM), video-to-text (VTT), and point-of-view understanding (POV).
             </p>
                                         <p style={{color: '#10B981', fontSize: '20px', fontWeight: 'bold'}}>
-                                        I'm seeking opportunities to apply my unique blend of theoretical physics and practical ML engineering to solve complex data challenges. Let's connect to discuss how my background in particle physics and experience with large-scale ML systems can benefit your organization.</p>
+                                        I'm seeking opportunities to apply my unique blend of theoretical knowledge and practical ML to solve complex data challenges in research and development. Let's connect to discuss how my background in collider physics and experience with large-scale ML systems can benefit your organization.</p>
             </>
           )}
           {activeSection === 'about' && (
@@ -90,35 +90,56 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
               <h1 className={styles.heading}>About Me</h1>
             
                                              <p className={styles.paragraph}>
-                                         I started my career as a physicist, earning my Ph.D. in particle physics before moving into data science. My background gives me an interesting perspective on data and machine learning problems. I've always been curious about how things work at their most basic level – that's what drew me to physics in the first place. During my Ph.D., I worked with other researchers to study theoretical models beyond the Standard Model, both BSM and SUSY, to address the shortcommings of standard model phenomenologically and employing sophisticated computations. My work involved simulating particle collisions at different types of colliders (hadron and muon colliders) and using machine learning algorithms (supervised/unsupervised and generative) to identify meaningful signals from background noise.
+                                         I started my career as a physicist, earning my Ph.D. in particle physics before moving into data science. My background gives me an interesting perspective on data and machine learning problems. I've always been curious about how things work at their most basic level—that's what drew me to particle physics in the first place. During my Ph.D., I worked with other researchers to study hypotheses beyond the Standard Model of particle physics to address the shortcomings of accepted model of fundamental physics employing data and sophisticated computations. My expertise involved simulating particle collisions at different types of colliders (hadron and lepton colliders) and using advanced machine learning algorithms to identify meaningful insights from the simulated data considering experimental traces at LHC.
                                              </p>
                                              <h2 className={styles.subheading1}>From Particle Physics to Data Science</h2>
                                              <p className={styles.paragraph}>
-                                         My particle physics background has really shaped how I think about data science problems. I learned a lot of useful skills along the way – from working with complex computations to analyzing statistics and building models. I enjoy taking raw data and finding practical insights that can be put to use in the real world.
+                                         My particle physics background has really shaped how I think about data science problems. I learned a lot of useful skills along the way–from working with complex datasets to analyzing statistics and building predictive models and hypotheses. I enjoyed taking simulation data and finding meaningful insights that can be evaluated against BSM hypotheses.
                                              </p>
                                              <h2 className={styles.subheading1}>Passion for Problem Solving</h2>
                                              <p className={styles.paragraph}>
-                                         I really enjoy solving complex problems and am always looking to learn new things. I work well with different teams to find practical solutions that make a real impact. My experience in both academia and industry has taught me to think carefully about problems, explain technical concepts clearly, and adapt to new challenges as they come up.
+                                         I really enjoy solving complex problems and always seek learning new skills and dig new understanding about how things work in fundamental level. I work well with different teams to find practical solutions that make a real impact. My experience in both academia and industry has taught me to think carefully about problems, explain technical concepts clearly, and adapt to new challenges as they come up.
                                              </p>
                                              <h2 className={styles.subheading1}>Continuous Learning and Growth</h2>
                                              <p className={styles.paragraph}>
-                                         Data science changes quickly, so I make it a point to keep learning through online courses, conferences, and personal projects. This keeps me current with new tools and methods, allowing me to bring fresh ideas to each new challenge.
+                                         Data science and ML evolve very quickly, so I make it a point to keep learning through reading advance books and articles, participating in conferences, and personal real-world projects. This keeps me current with new tools and methods, allowing me to bring fresh ideas to each new challenge.
                                              </p>
                                              <h2 className={styles.subheading1}>Beyond the Data</h2>
                                              <p className={styles.paragraph}>
-                                         Outside of work, I enjoy nature photography and spending time outdoors with my camera. Music is also a big part of my life – I often listen to classical pieces while working or relaxing. I am also interested in astronomy and quantum gravity, in addition to my ongoing research in particle physics.
+                                         Outside of work, I enjoy nature photography and spending time outdoors with my camera. Music is also a big part of my life–I often listen to classical pieces while working or relaxing. I am also interested in astronomy and dark sky, in addition to my interest in foundations of particle physics.
                                              </p>
                                              <p className={styles.paragraph}>
-                                         These interests help me stay balanced and often inspire new ways of thinking about problems in my data science work. Having a rich life outside of work keeps me creative and energized.
+                                         These interests help me stay balanced and often inspire thinking about problems in my data science work. Having a happy life outside of work keeps me creative and energized.
                                              </p>
                                          <p style={{color: '#10B981', fontSize: '20px', fontWeight: 'bold'}}>
-                                         Feel free to browse my portfolio to learn more about my work, or get in touch if you'd like to connect. I'm always interested in discussing new projects and collaborations.
+                                         Feel free to browse my portfolio to learn more about my work, or get in touch if you'd like to connect. I'm always interested in discussing new opportunities in the prospect.
                                              </p>
             </>
           )}
            {activeSection === 'experience' && (
   <>
     <h1 className={styles.heading}>Professional Experiences</h1>
+
+<div className={styles.experienceCard}>
+      <h2 className={styles.subheading1}>Machine Learning Specialist</h2>
+      <h3 className={styles.companyName}>Scale AI</h3>
+      <p className={styles.duration}>2023 - Present</p>
+      
+      <ul className={styles.experienceList}>
+        <li>Conduct quality assessment and evaluation of cutting-edge LLMs (such as Google Gemini), performing rigorous assessment of fine-tuning effectiveness across four modalities (text, image, video, voice), focusing on math and data science domains.
+
+        </li>
+        <li> Implemented production assessment for fine-tuning (SFT/RLHF) in math and data science domains, authored 200+ technical ML/DS prompts.
+
+        </li>
+       <li>Collaborated with 10+ team members in ML pipeline production, ensuring consistency and accuracy in model evaluation processes.
+
+       </li>
+       <li> Developed LaTeX automated validation pipeline for math and data science domains, integrating defined rules and relevant quality control checks in a 20+ member production team.
+
+       </li>
+      </ul>
+    </div>
 
 <div className={styles.experienceCard}>
   <h2 className={styles.subheading1}>Personalized Internet Assessor</h2>
@@ -134,23 +155,6 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
     <li> Deliver consistent data evaluations under strict deadlines while upholding accuracy standards. </li>
   </ul>
 </div>
-    
-<div className={styles.experienceCard}>
-      <h2 className={styles.subheading1}>Machine Learning Specialist</h2>
-      <h3 className={styles.companyName}>Scale AI</h3>
-      <p className={styles.duration}>2023 - Present</p>
-      
-      <ul className={styles.experienceList}>
-        <li>Conduct quality assessment and evaluation of Google Gemini’s SFT/RLHF pipeline across five modalities (text, image, video, voice, POV), improving model performance by 18% in the data science domain.
-        </li>
-        <li> Designed and implemented production assessment frameworks for optimizing model training in math and data science domains, authoring 200+ technical ML prompts.
-        </li>
-       <li>Mentored and trained 10+ team members in ML pipeline production, ensuring consistency and accuracy in model evaluation processes.
-       </li>
-       <li> Develop automated validation systems for math and data science domains, integrating LaTeX guidelines and quality control checks for a 20+ member production team.
-       </li>
-      </ul>
-    </div>
 
 	<div className={styles.experienceCard}>
       <h2 className={styles.subheading1}>Ph.D. Researcher in Computational Particle Physics</h2>
@@ -158,53 +162,40 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
       <h3 className={styles.companyName}>Concordia University</h3>
       <p className={styles.duration}>2020 - 2025</p>
       <ul className={styles.experienceList}>
-        <li>Developed and analyzed Beyond Standard Model (BSM) models using sophisticated simulation tools, publishing research in high-impact journals (JHEP, EPJC, and PRD).
+        <li>Developed and analyzed beyond Standard Model (BSM) hypotheses using sophisticated simulation tools, publishing research in high-impact journals (JHEP, EPJC, and PRD).
+
         </li>
-        <li> Conducted large-scale computations on clusters, simulating collider traces using MG5_aMC and analyzing collider effects from ATLAS, CMS, and future muon colliders.
+        <li> Conducted statistical analysis of large-scale simulation data from ATLAS, CMS, and future lepton colliders on computation clusters, testing theoretical hypotheses against empirical observations.        </li>
+        <li>Developed predictive models for jet tagging, anomaly detection, and statistical classification of rare physics events to improve BSM sensitivity and signal vs. background classification metrics in collider simulations, with emphasis on discovery potential of collider simulations.
+
         </li>
-        <li>Applied machine learning algorithms for jet tagging, anomaly detection, and background suppression to improve particle classification accuracy and heavy particle sensitivity.
-        </li>
-        <li>Automated parameter space exploration for BSM models using Python and Bash, enabling large-scale simulations on computing clusters.
+        <li>Automated parameter space exploration for theoretical hypotheses using Slurm, Python, and Bash, enabling large-scale statistical analysis on computing clusters.
+
         </li>
       </ul>
     </div>
 
-    
 
     <div className={styles.experienceCard}>
       <h2 className={styles.subheading1}>Data Scientist</h2>
-      <h3 className={styles.companyName}>Freelance</h3>
-      <p className={styles.duration}>2023 - 2024</p>
-      <ul className={styles.experienceList}>
-        <li>Delivered end-to-end data science solutions for clients across diverse industries, optimizing operational efficiency through custom ML implementations.</li>
-
-        <li>Designed specialized models for recommendation systems, churn prediction, and anomaly detection with demonstrable business impact.
-        </li>
-
-		<li>Developed automated data pipelines using AWS/GCP services while ensuring data quality throughout processing workflows.
-    </li>
-
-		<li>Created visualizations to communicate insights to clients and provided strategic data implementation consultation.</li>
-      </ul>
-    </div>
-
-    <div className={styles.experienceCard}>
-      <h2 className={styles.subheading1}>Machine Learning Engineer</h2>
       <h3 className={styles.companyName}>PYR System</h3>
       <p className={styles.duration}>2021 - 2023</p>
       <ul className={styles.experienceList}>
-        <li>Improved data classification and decreased the need for labeling by using exploratory data analysis (EDA) to find candidate data for less common classes.
-        </li>
-
-        <li>Implemented pipeline for data transferring that automated and integrated the functionalities of four existing services: extractor, validator, documents-index-identifier, and indexer.
+        <li>Analyzed data classification patterns and conducted exploratory data analysis (EDA) to identify underrepresented classes, improving model performance through targeted data insights.
 
         </li>
 
-		<li>Created a news retrieval system that decreased fake news by 23% by tracing the origins of news.
+        <li>Implemented automated data transfer pipeline integrating four existing services: extractor, validator, document indexer, and indexer.  
+
+
+        </li>
+
+		<li>Generated actionable insights from news content analysis for authenticity verification.
 
     </li>
 
-		<li>Developed an Airflow alert system that improved the team's monitoring and response time for Airflow DAGs by 34%.
+		<li>Developed comprehensive Airflow monitoring and alert system, improving team response times for DAG failures and issues.
+
     </li>
       </ul>
     </div>

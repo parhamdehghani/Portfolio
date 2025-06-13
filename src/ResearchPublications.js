@@ -20,6 +20,15 @@ const ResearchPublications = () => {
   const [hoveredInterest, setHoveredInterest] = useState(null);
     
   const publications = [
+     {
+      id: 0,
+      title: "Vector Boson Fusion Signatures of Superheavy Majorana Neutrinos at Muon Colliders",
+      journal: "Physical Review D",
+      year: "2025",
+      recap: "We investigate the sensitivity of future high-energy muon colliders to heavy Majorana neutrinos, considering both opposite-sign (μ+μ−) and same-sign (μ+μ+) collision modes. We focus on μ+μ− colliders operating at centre-of-mass energies of 1, 3 and 10 TeV, as well as the proposed μTRISTAN facility at 2 TeV, and we analyse the production of heavy neutrinos via vector boson fusion in the t-channel, a mechanism that becomes dominant in the multi-TeV regime. We evaluate its exclusion potential in terms of the heavy neutrino mass and the mixing of the heavy neutrino with its Standard Model counterparts, using both cut-based selections and boosted decision trees trained to exploit the distinct kinematic signatures of heavy Majorana neutrino exchanges. Our results demonstrate the complementarity between collider configurations, and show that active-sterile mixing angles as small as 0.001 could be probed for neutrino masses up to 100 TeV, an experimentally inaccessible region of the parameter space at current facilities. Altogether, this work establishes the discovery potential of muon colliders for testing super-heavy Majorana neutrinos, complementary to conventional probes, and provides compelling motivation for the next generation of high-energy lepton colliders.",
+      imageUrl: config.basePath+"/VBF.png",
+      publicationUrl: "https://arxiv.org/abs/2506.06159"
+    },
     {
       id: 1,
       title: "Collider imprint of vector-like leptons in light of anomalous magnetic moment and neutrino data",
