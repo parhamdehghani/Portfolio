@@ -142,7 +142,7 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
     </div>
 
 <div className={styles.experienceCard}>
-  <h2 className={styles.subheading1}>Personalized Internet Assessor</h2>
+  <h2 className={styles.subheading1}>AI Rater</h2>
   <h3 className={styles.companyName}>TELUS International AI Data Solutions</h3>
   <p className={styles.duration}>2022 - Present</p>
   
@@ -177,9 +177,9 @@ const Portfolio = ({ videoSrc, resumeLink }) => {
 
 
     <div className={styles.experienceCard}>
-      <h2 className={styles.subheading1}>Data Scientist</h2>
+      <h2 className={styles.subheading1}>Machine Learning Engineer</h2>
       <h3 className={styles.companyName}>PYR System</h3>
-      <p className={styles.duration}>2021 - 2023</p>
+      <p className={styles.duration}>2019 - 2022</p>
       <ul className={styles.experienceList}>
         <li>Analyzed data classification patterns and conducted exploratory data analysis (EDA) to identify underrepresented classes, improving model performance through targeted data insights.
 
